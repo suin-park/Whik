@@ -2,9 +2,9 @@
 
 # WHIK Studio
 
-**한국어** · [English](#english)
+**한국어** | [English](#english)
 
-WHIK Studio는 3D 가우시안 스플랫(3DGS) 공간과 영상·이미지를 노드로 연결해 합성하는 무료 Windows 프로그램입니다.
+WHIK Studio는 3D 가우시안 스플랫(3DGS) 공간과 영상, 이미지를 노드로 연결해 합성하는 무료 Windows 프로그램입니다.
 
 ![WHIK Studio](screenshot.png)
 
@@ -28,17 +28,17 @@ WHIK Studio는 3D 가우시안 스플랫(3DGS) 공간과 영상·이미지를 �
 
 ## 주요 기능
 
-- 노드 기반 합성: Merge, Transform, Grade, Color·Filter·Channel·Time 노드
+- 노드 기반 합성: Merge, Transform, Grade, Color, Filter, Channel, Time 노드
 - 3D 가우시안 스플랫 장면 편집과 렌더링, 클래식 3D 지오메트리, Project3D
 - Roto / RotoPaint, Tracker, CornerPin
-- 이미지 시퀀스·영상 읽기와 쓰기 (EXR, DPX, PNG, MOV/MP4 등), OCIO 색 관리
+- 이미지 시퀀스와 영상 읽기, 쓰기 (EXR, DPX, PNG, MOV/MP4 등), OCIO 색 관리
 - Python 스크립트
 
 ## 라이선스와 문의
 
-- 개인·상업 용도 모두 무료로 사용할 수 있습니다. 자세한 내용은 [LICENSE.txt](LICENSE.txt)를 참고하세요.
+- 개인 용도와 상업 용도 모두 무료로 사용할 수 있습니다. 자세한 내용은 [LICENSE.txt](LICENSE.txt)를 참고하세요.
 - 포함된 서드파티 구성 요소와 라이선스는 설치 폴더의 `THIRD_PARTY_NOTICES.txt`와 `licenses` 폴더에 있습니다.
-- 문의: support@whiklab.com · https://whik.co.kr
+- 문의: support@whiklab.com, https://whik.co.kr
 
 ---
 
@@ -70,6 +70,6 @@ To uninstall, remove WHIK Studio in Windows **Settings → Apps → Installed ap
 
 - Free for personal and commercial use; see [LICENSE.txt](LICENSE.txt).
 - Third-party components and their licences are listed in `THIRD_PARTY_NOTICES.txt` and the `licenses` folder of the installation.
-- Contact: support@whiklab.com · https://whik.co.kr
+- Contact: support@whiklab.com, https://whik.co.kr
 
 © 2026 Whik Lab
