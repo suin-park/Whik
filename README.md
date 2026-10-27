@@ -8,7 +8,14 @@ WHIK Studio는 노드 기반 영상 합성을 위한 무료 Windows 프로그램
 
 > 아직 정식 버전이 아닌 미리 보기 버전이니 맛보기로 사용해 주세요. 매주 새 버전이 올라올 예정입니다.
 
-![WHIK Studio](screenshot.png)
+![3D 가우시안 스플랫 장면과 2D 합성](screenshot-1.png)
+*3D 가우시안 스플랫(3DGS) 장면 편집과 2D 합성 (GeoImport, SplatRender, Grade, ZDefocus)*
+
+![트래킹과 로토](screenshot-2.png)
+*트래킹과 로토, 채널 복사와 합성 (Tracker, Roto, Copy, Merge)*
+
+![Project3D와 3D 렌더](screenshot-3.png)
+*이미지 프로젝션과 3D 렌더 (Project3D, Card, Cylinder, ScanlineRender)*
 
 ## 다운로드
 
@@ -51,6 +58,8 @@ WHIK Studio는 노드 기반 영상 합성을 위한 무료 Windows 프로그램
 WHIK Studio is a free Windows application for node-based video compositing. It also edits 3D Gaussian splats (3DGS).
 
 > This is a preview, not an official release yet: please treat it as a first taste. New versions are planned every week.
+
+Screenshots: 3DGS scene editing with 2D compositing, tracking and roto, image projection and 3D rendering (see above).
 
 ### Download
 
