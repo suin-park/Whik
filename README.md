@@ -4,7 +4,9 @@
 
 **한국어** | [English](#english)
 
-WHIK Studio는 3D 가우시안 스플랫(3DGS) 공간과 영상, 이미지를 노드로 연결해 합성하는 무료 Windows 프로그램입니다.
+WHIK Studio는 노드 기반 영상 합성을 위한 무료 Windows 프로그램입니다. 3D 가우시안 스플랫(3DGS) 편집도 지원합니다.
+
+> 아직 정식 버전이 아닌 미리 보기 버전이니 맛보기로 사용해 주세요. 매주 새 버전이 올라올 예정입니다.
 
 ![WHIK Studio](screenshot.png)
 
@@ -46,7 +48,9 @@ WHIK Studio는 3D 가우시안 스플랫(3DGS) 공간과 영상, 이미지를 �
 
 ## English
 
-WHIK Studio is a free Windows application for node-based compositing of 3D Gaussian splat (3DGS) spaces, footage and images.
+WHIK Studio is a free Windows application for node-based video compositing. It also edits 3D Gaussian splats (3DGS).
+
+> This is a preview, not an official release yet: please treat it as a first taste. New versions are planned every week.
 
 ### Download
 
