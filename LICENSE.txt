@@ -1,0 +1,31 @@
+WHIK Studio - Software Licence
+
+Copyright (c) 2026 Whik Lab. All rights reserved.
+
+1. Free use
+   You may install and use WHIK Studio free of charge, for personal and commercial work,
+   on any number of computers. What you make with it is yours.
+
+2. Copies
+   You may pass on copies of the unmodified installer, free of charge. You may not sell
+   WHIK Studio, or offer it as part of a paid product, without written permission from Whik Lab.
+
+3. Third-party components
+   WHIK Studio includes components made by others (Qt, FFmpeg, Python, OpenImageIO,
+   OpenColorIO, OpenEXR, OpenUSD and more). Each is provided under its own licence, listed
+   in THIRD_PARTY_NOTICES.txt with the full texts in the "licenses" folder. Nothing in this
+   licence limits the rights those licences give you. In particular, you may replace the
+   Qt libraries shipped with WHIK Studio with your own build of them, and reverse engineer
+   WHIK Studio as far as needed to debug such a modification.
+
+4. No warranty
+   WHIK Studio is provided "as is", without warranty of any kind, express or implied,
+   including fitness for a particular purpose. Whik Lab is not liable for any damage or loss of
+   data arising from its use, to the extent the law allows.
+
+5. Trademarks
+   "WHIK" and the WHIK Studio logo are trademarks of Whik Lab. All other product names belong to
+   their respective owners.
+
+Contact
+   Whik Lab - https://whik.co.kr - support@whiklab.com
