@@ -48,17 +48,18 @@ WHIK Studio는 노드 기반 영상 합성을 위한 무료 Windows 프로그램
 
 필요한 기능을 평소 말투로 적어 보세요. 예를 들어 "밝은 부분만 번지게 하는 글로우 노드 만들어 줘"라고 쓰면, AI가 Python 플러그인으로 만들어 바로 쓸 수 있게 해 줍니다.
 
-Claude, ChatGPT, Gemini 중에서 고를 수 있고, 각 서비스의 API 키는 본인 것을 넣어 사용합니다. 사용 요금은 본인 계정으로 청구되며, WHIK Lab은 따로 요금을 받지 않습니다.
+Claude, OpenAI, Gemini 중에서 고를 수 있고, 각 서비스의 API 키는 본인 것을 넣어 사용합니다. 사용 요금은 본인 계정으로 청구되며, WHIK Lab은 따로 요금을 받지 않습니다.
 
 **사용법**
 
 1. Prompt Editor 탭을 엽니다 (Ctrl+Shift+I).
-2. Claude, ChatGPT, Gemini 중 하나를 고르고, **API Key...** 버튼에서 본인의 API 키를 넣습니다. 키는 각 서비스 웹사이트에서 받을 수 있습니다.
+2. Claude, OpenAI, Gemini 중 하나를 고르고, **API Key...** 버튼에서 본인의 API 키를 넣습니다. 키는 각 서비스 웹사이트에서 받을 수 있습니다.
    - Claude: console.anthropic.com
-   - ChatGPT: platform.openai.com
+   - OpenAI: platform.openai.com
    - Gemini: aistudio.google.com
 3. 원하는 기능을 적고 보냅니다. AI가 코드를 만들고, 설치 전에 그 코드를 보여 줍니다. 확인을 눌러야 설치됩니다.
 4. 설치된 기능은 노드 목록이나 **Plugins** 메뉴에 나타납니다. 마음에 들지 않으면 "이 부분 바꿔 줘"처럼 이어서 요청하면 됩니다.
+5. 대화는 왼쪽 목록에 남습니다. 눌러서 다시 보거나 이어서 물을 수 있고, **Delete**(또는 우클릭)로 지울 수 있습니다. 대화 기록은 이 PC에만 저장됩니다.
 
 **요금과 키**
 
@@ -112,17 +113,18 @@ To uninstall, remove WHIK Studio in Windows **Settings → Apps → Installed ap
 
 Describe a feature in plain words, for example "make a glow node that spreads only the bright parts", and an AI writes it as a Python plugin you can use right away.
 
-Pick Claude, ChatGPT or Gemini and use your own API key for it. Usage is billed to your own account with that service; WHIK Lab charges nothing.
+Pick Claude, OpenAI or Gemini and use your own API key for it. Usage is billed to your own account with that service; WHIK Lab charges nothing.
 
 **How to use it**
 
 1. Open the Prompt Editor tab (Ctrl+Shift+I).
-2. Pick Claude, ChatGPT or Gemini and enter your API key with **API Key...**. Get a key from the service's website:
+2. Pick Claude, OpenAI or Gemini and enter your API key with **API Key...**. Get a key from the service's website:
    - Claude: console.anthropic.com
-   - ChatGPT: platform.openai.com
+   - OpenAI: platform.openai.com
    - Gemini: aistudio.google.com
 3. Describe what you want and send it. The AI writes the code and shows it to you first; it is installed only when you confirm.
 4. The new feature appears in the node list or the **Plugins** menu. If it isn't quite right, ask again ("change this part").
+5. Your conversations stay in the list on the left: open one to read it again or go on, **Delete** (or right-click) removes it. They are kept only on this PC.
 
 **Billing and keys**
 
