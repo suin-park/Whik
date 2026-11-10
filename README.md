@@ -21,6 +21,10 @@ WHIK Studio는 노드 기반 영상 합성을 위한 무료 Windows 프로그램
 
 [**최신 버전 다운로드 (Releases)**](https://github.com/suin-park/Whik/releases/latest) → `WHIK-Studio-<버전>-Setup.exe`
 
+## 매뉴얼
+
+처음 시작하기, 화면 구성, 단축키, 모든 노드의 옵션 설명을 [**whik.co.kr/manual**](https://whik.co.kr/manual)에서 볼 수 있습니다. 한국어, English, 日本語, 中文을 지원합니다.
+
 ## 설치
 
 1. `WHIK-Studio-<버전>-Setup.exe`를 내려받아 실행합니다.
@@ -94,6 +98,10 @@ Screenshots: 3DGS scene editing with 2D compositing, tracking and roto, image pr
 ### Download
 
 [**Download the latest version (Releases)**](https://github.com/suin-park/Whik/releases/latest) → `WHIK-Studio-<version>-Setup.exe`
+
+### Manual
+
+Getting started, the screen, shortcuts and every node's options at [**whik.co.kr/manual**](https://whik.co.kr/manual), in Korean, English, Japanese and Chinese.
 
 ### Install
 
