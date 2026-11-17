@@ -4,7 +4,7 @@
 
 **한국어** | [English](#english)
 
-WHIK Studio는 노드 기반으로 영상을 합성하고 3D 장면을 만드는 무료 프로그램입니다. Windows와 리눅스에서 동작합니다. 키잉, 로토, 트래킹 같은 합성 작업부터 3D 가우시안 스플랫(3DGS)과 사실적인 3D 렌더, 내 PC에서 돌아가는 AI 노드까지 한 노드 그래프에서 다루고, Maya와 Blender에서 작업하는 장면을 실시간으로 받아 올 수 있습니다.
+WHIK Studio는 노드 기반으로 영상을 합성하고 3D 장면을 만드는 무료 프로그램입니다. Windows와 리눅스에서 동작합니다. 키잉, 로토, 트래킹 같은 합성 작업부터 3D 가우시안 스플랫(3DGS)과 사실적인 3D 렌더, 내 PC에서 돌아가는 AI 노드까지 한 노드 그래프에서 다루고, Maya, Blender, Unreal에서 작업하는 장면을 실시간으로 받아 올 수 있습니다.
 
 ![3D 가우시안 스플랫 장면과 2D 합성](screenshot-1.png)
 *3D 가우시안 스플랫(3DGS) 장면 편집과 2D 합성*
@@ -45,8 +45,8 @@ WHIK Studio는 노드 기반으로 영상을 합성하고 3D 장면을 만드는
 - 3D 지오메트리와 모델링 도구, 재질과 UV 편집, Project3D
 - Render3D: 빠른 GPU 렌더와 레이 트레이싱, 물리 기반 재질, 렌더 패스와 크립토매트
 - 3D 파일 불러오기(USD, Alembic, GLB, FBX, OBJ 등), 무료 3D 모델 라이브러리
-- Maya, Blender와 실시간 연결: 작업하는 장면, 재질과 텍스처, 카메라가 WHIK의 3D 뷰어에 그대로 따라오고, Arnold, Cycles, EEVEE로 만든 렌더 패스(크립토매트 포함)를 받아 옵니다. WHIK에서 만든 그림을 재질에 입히면 바로 반영됩니다. Maya 2025, 2026, Blender 4.2 이후, Windows와 리눅스 모두 지원합니다.
-- 3D 뷰 조작 방식을 Maya 방식과 Blender 방식 중에서 고를 수 있습니다
+- Maya, Blender, Unreal과 실시간 연결: 작업하는 장면, 재질과 텍스처, 카메라가 WHIK의 3D 뷰어에 그대로 따라오고, Arnold, Cycles, EEVEE로 만든 렌더 패스(크립토매트 포함)와 Unreal 뷰포트의 버퍼를 받아 옵니다. WHIK에서 만든 그림을 재질에 입히면 바로 반영됩니다. Maya 2025, 2026, Blender 4.2 이후, Unreal Engine 5.3 이후, Windows와 리눅스 모두 지원합니다.
+- 3D 뷰 조작 방식을 Maya, Blender, Unreal 방식 중에서 고를 수 있습니다
 
 **AI 노드 (내 PC에서 실행, 계정 필요 없음)**
 - 사물과 와이어 지우기, 자동 매트(Segment), 깊이 분석
@@ -132,7 +132,7 @@ Claude, OpenAI, Gemini 중에서 고를 수 있고, 각 서비스의 API 키는 
 
 ## English
 
-WHIK Studio is a free application for node-based video compositing and 3D, for Windows and Linux. Keying, roto and tracking, 3D Gaussian splats (3DGS) and realistic 3D rendering, and AI nodes that run on your own PC, all in one node graph, with your Maya and Blender scenes coming in live.
+WHIK Studio is a free application for node-based video compositing and 3D, for Windows and Linux. Keying, roto and tracking, 3D Gaussian splats (3DGS) and realistic 3D rendering, and AI nodes that run on your own PC, all in one node graph, with your Maya, Blender and Unreal scenes coming in live.
 
 Screenshots (above): 3DGS scene editing with 2D compositing, tracking and roto, image projection and 3D rendering.
 
@@ -166,8 +166,8 @@ Getting started, the screen, shortcuts, guides by task and every node's options 
 - 3D geometry and modelling tools, materials and UV editing, Project3D
 - Render3D: fast GPU rendering and ray tracing, physically based materials, render passes and Cryptomatte
 - 3D files in (USD, Alembic, GLB, FBX, OBJ...), a library of free 3D models
-- Live link with Maya and Blender: the scene you build, its materials and textures and the camera follow in WHIK's 3D viewer, and render passes from Arnold, Cycles or EEVEE (Cryptomatte included) come in. A picture made in WHIK put on a material shows there at once. Maya 2025 and 2026, Blender 4.2 and later, on Windows and Linux.
-- The 3D view's mouse and keys work the Maya way or the Blender way, as you pick
+- Live link with Maya, Blender and Unreal: the scene you build, its materials and textures and the camera follow in WHIK's 3D viewer, and render passes from Arnold, Cycles or EEVEE (Cryptomatte included) and Unreal's viewport buffers come in. A picture made in WHIK put on a material shows there at once. Maya 2025 and 2026, Blender 4.2 and later, Unreal Engine 5.3 and later, on Windows and Linux.
+- The 3D view's mouse and keys work the Maya, Blender or Unreal way, as you pick
 
 **AI nodes (run on your PC, no account)**
 - Object and wire removal, automatic mattes (Segment), depth
