@@ -4,7 +4,12 @@
 
 **한국어** | [English](#english)
 
-WHIK Studio는 노드 기반으로 영상을 합성하고 3D 장면을 만드는 무료 프로그램입니다. Windows와 리눅스에서 동작합니다. 키잉, 로토, 트래킹 같은 합성 작업부터 3D 가우시안 스플랫(3DGS)과 사실적인 3D 렌더, 내 PC에서 돌아가는 AI 노드까지 한 노드 그래프에서 다루고, Maya, Blender, Unreal에서 작업하는 장면을 실시간으로 받아 올 수 있습니다.
+**영상 편집부터 합성, 3D, AI까지 한 프로그램에서. 무료 영상 제작 툴**
+
+WHIK Studio는 Windows와 리눅스에서 쓰는 무료 올인원 영상 제작 프로그램입니다. 타임라인에서 컷을 편집하고 자막과 소리를 다듬다가, 손이 많이 가는 장면은 같은 프로그램의 노드 합성으로 보내 키잉, 로토, 트래킹으로 완성합니다. 3D 가우시안 스플랫(3DGS)과 사실적인 3D 렌더, 내 PC에서 돌아가는 AI 기능, Maya, Blender, Unreal 장면의 실시간 연결까지 한곳에서 다룹니다.
+
+![타임라인 편집](screenshot-edit.jpg)
+*타임라인 편집: 여러 트랙, 전환, 자막, 오디오 믹서*
 
 ![3D 가우시안 스플랫 장면과 2D 합성](screenshot-1.png)
 *3D 가우시안 스플랫(3DGS) 장면 편집과 2D 합성*
@@ -14,6 +19,12 @@ WHIK Studio는 노드 기반으로 영상을 합성하고 3D 장면을 만드는
 
 ![Project3D와 3D 렌더](screenshot-3.png)
 *이미지 프로젝션과 3D 렌더*
+
+![AI로 낮을 밤으로](screenshot-daytonight.jpg)
+*내 PC에서 돌아가는 AI: 낮 장면을 밤으로(DayToNight)*
+
+![레이 트레이싱 렌더](screenshot-render3d.jpg)
+*Render3D 레이 트레이싱: 금속, 유리, 반사와 그림자*
 
 ## 다운로드
 
@@ -29,6 +40,17 @@ WHIK Studio는 노드 기반으로 영상을 합성하고 3D 장면을 만드는
 처음 시작하기, 화면 구성, 단축키, 작업별 안내, 모든 노드의 옵션 설명을 [**whik.co.kr/manual**](https://whik.co.kr/manual)에서 볼 수 있습니다. 한국어, English, 日本語, 中文을 지원합니다.
 
 ## 주요 기능
+
+**영상 편집**
+- 여러 트랙 타임라인: 자르기, 트리밍, 리플, 전환, 속도, 키프레임, 마스크
+- 효과 레이어(아래 트랙 전체에 효과), 트랙 매트(위 레이어의 알파나 밝기로 보이기), 색 보정과 LUT
+- 빈: 폴더, 태그, 레이어가 있는 PSD와 EXR 불러오기, 새 항목(단색, 테스트 패턴, 체커, 그라데이션, 카운트다운), 클립 바꾸기
+- 자막: 음성에서 자동 자막(내 PC에서 실행), 스타일, SRT, VTT, ASS로 내보내기
+- 자동 편집: 말 사이의 쉼, 군말, 다시 말한 부분을 찾아 정리, AI 더빙
+- 오디오: 믹서, 음량 맞추기(LUFS), 사운드 라이브러리
+- 내보내기: H.264, H.265, AV1, ProRes, DNxHR, 이미지 시퀀스, 세로 영상(9:16) 맞추기와 채우기, 소리만, 자막만
+- 다른 편집 프로그램과 주고받기(OpenTimelineIO, EDL)
+- 편집 중인 클립을 노드 합성으로 보내 다듬고 바로 타임라인으로 돌아오기
 
 **합성**
 - 노드 기반 합성: Merge, Transform, Grade, ColorCorrect, 필터, 채널, 시간 노드, 그룹
@@ -132,9 +154,11 @@ Claude, OpenAI, Gemini 중에서 고를 수 있고, 각 서비스의 API 키는 
 
 ## English
 
-WHIK Studio is a free application for node-based video compositing and 3D, for Windows and Linux. Keying, roto and tracking, 3D Gaussian splats (3DGS) and realistic 3D rendering, and AI nodes that run on your own PC, all in one node graph, with your Maya, Blender and Unreal scenes coming in live.
+**Edit, composite, 3D and AI in one free program**
 
-Screenshots (above): 3DGS scene editing with 2D compositing, tracking and roto, image projection and 3D rendering.
+WHIK Studio is a free all-in-one video production program for Windows and Linux. Cut your edit on the timeline, polish captions and sound, and send the shots that need more work to the same program's node compositing for keying, roto and tracking. 3D Gaussian splats (3DGS), realistic 3D rendering, AI that runs on your own PC, and your Maya, Blender and Unreal scenes coming in live, all in one place.
+
+Screenshots (above): timeline editing, 3DGS scene editing with 2D compositing, tracking and roto, image projection and 3D rendering, AI day to night, ray traced rendering.
 
 ### Download
 
@@ -150,6 +174,17 @@ New versions come straight from **Help > Check for Updates** in the app.
 Getting started, the screen, shortcuts, guides by task and every node's options at [**whik.co.kr/manual**](https://whik.co.kr/manual), in Korean, English, Japanese and Chinese.
 
 ### Features
+
+**Video editing**
+- A multi-track timeline: cut, trim, ripple, transitions, speed, keyframes, masks
+- Effect layers (an effect on every track below), track mattes (shown through the alpha or brightness of the layer above), colour correction and LUTs
+- The bin: folders, tags, layered PSD and EXR import, new items (colour fill, test bars, checker, gradient, countdown), replacing clips
+- Captions: automatic captions from speech (on your PC), styles, SRT, VTT and ASS out
+- Auto Edit: pauses, filler words and retakes found and tidied; AI dubbing
+- Sound: a mixer, loudness matching (LUFS), a sound library
+- Export: H.264, H.265, AV1, ProRes, DNxHR, image sequences, vertical video (9:16) fitted or filled, the sound alone, the captions alone
+- Trade with other editors (OpenTimelineIO, EDL)
+- Send a clip to node compositing, finish it there, and be back on the timeline
 
 **Compositing**
 - Node-based compositing: Merge, Transform, Grade, ColorCorrect, filter, channel and time nodes, groups
